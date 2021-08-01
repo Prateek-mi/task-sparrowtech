@@ -1,0 +1,10 @@
+This is a brief approach of how I solve the problem.
+1. first i open the words.txt, read it.
+2. Then arrange the words in reverse order according to the length using sorted method.
+3. appended the file into list 
+4. to find the comprised word from the list i compared the words from descending ordered list to ascending ordered list
+5. if the longest word is found the count increases 
+6. the loop will execute untill it traverse all the words.
+7. Why i use list data structure and not tree?
+              I tried to execute the program using tree but it was very difficult and complex to create the tree and traverse all words from it vone by one, also we i could have used whoosh library to improve the time of execution but it will take a lost of storage from RAM or will lead to crash the system. 
+ 
